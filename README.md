@@ -38,6 +38,7 @@ npm install
 
 ### 4. Running the Project
 
+
 #### Running the Server
 Navigate to the server directory:
 cd server
@@ -46,6 +47,7 @@ Start the server:
 npm start
 
 This will run the server on http://localhost:8081 by default.
+
 
 #### Running the Client
 In a new terminal, navigate to the client directory:
