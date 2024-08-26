@@ -1,4 +1,4 @@
-# Chess-Like Game
+# Mini Game
 This is a turn-based chess-like game with a server-client architecture, using WebSockets for real-time communication. The project includes a backend server that manages the game logic and a frontend client that allows players to interact with the game.
 
 ## Table of Contents
