@@ -2,29 +2,38 @@
 This is a turn-based chess-like game with a server-client architecture, using WebSockets for real-time communication. The project includes a backend server that manages the game logic and a frontend client that allows players to interact with the game.
 
 ## Table of Contents
-Installation
-Running the Project
-File Structure
-Game Flow
-Edge Cases Handled
+
+-Installation
+
+-Running the Project
+
+-File Structure
+
+-Game Flow
+
+-Edge Cases Handled
 
 ## Installation
 ### Prerequisites
 Node.js (v14.x or later)
+
 npm (comes with Node.js)
 
 ## Steps
 
 ### 1. Clone the repository:
 git clone https://github.com/Priyanshi2003-gen/Priyanshi-Shah-21BIT0378.git
+
 cd Priyanshi-Shah-21BIT0378
 
 ### 2. Install dependencies for the server:
 cd server
+
 npm install
 
 ### 3. Install dependencies for the client:
 cd ../client
+
 npm install
 
 ### 4. Running the Project
@@ -35,14 +44,19 @@ cd server
 
 Start the server:
 npm start
+
 This will run the server on http://localhost:8081 by default.
 
 #### Running the Client
 In a new terminal, navigate to the client directory:
+
 cd client
 
+
 Start the client:
+
 npm start
+
 This will run the client on http://localhost:8081 by default.
 
 ## Accessing the Game
