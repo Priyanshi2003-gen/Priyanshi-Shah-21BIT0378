@@ -100,3 +100,6 @@ Open a web browser and navigate to http://localhost:8081 to start playing the ga
 1. Ensure that both the server and client are running simultaneously for the game to work.
 2. The game logic, including the validation of moves and handling of game states, is primarily stored in the game.js file on the server side.
 3. The client-side script (client.js) manages the UI and interaction with the server through WebSockets.
+
+![image](https://github.com/user-attachments/assets/af53b58c-6b04-46b4-abbf-7466a54cf69e)
+
