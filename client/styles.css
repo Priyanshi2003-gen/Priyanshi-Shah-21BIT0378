@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 1px;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.empty {
+    background-color: #fff;
+}
+
+.player1 {
+    background-color: #ff9999;
+    text-align: center;
+    line-height: 60px;
+}
+
+.player2 {
+    background-color: #99cc99;
+    text-align: center;
+    line-height: 60px;
+}
+
+#status-bar {
+    margin-bottom: 20px;
+}
+
+#current-turn {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#valid-moves button {
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-over {
+    margin-top: 20px;
+    font-size: 20px;
+}
